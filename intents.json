@@ -1,0 +1,68 @@
+{ "intents": [
+ { "tag" : "greetings",
+   "Patterns": ["hello", "hey","hi","good day","Greetings" ,"what's up? ",  "how is it going"],
+    "Responses": ["Hello", "hi", "what can I do for you?"]
+},
+ { "tag" : "goodbye",
+   "Patterns": ["I am leaving", "Goodbye","bye","See you later ","Have a good day"],
+    "Responses": ["Goodbye","Sad to see you go"]
+},
+{"tag":"Smartwatches_Details",
+"Patterns": ["Give the Smartwatch Details"], 
+"Responses": ["Count :100, Price:$500,Country Name:Japan, Delievered Date:20 feb 2023"]
+},
+{ "tag":"Router_model_3",
+  "Patterns": ["What is the most sold Routers Model 3 in india"], 
+  "Responses": ["Catalyst 9000 is the most sold"]
+},
+{ "tag":"Router_model_2",
+  "Patterns": ["What is the most sold Routers Model  in india"], 
+  "Responses": ["Catalyst 7000 is the most sold"]
+},
+{   "tag":"total_routers",
+    "Patterns": ["What is the total number of routers in india and what was their price"], 
+    "Responses": ["10000 CISCO routers were sold in india in the year 2023, The router price was 1000rs or $3.53 "]
+},
+{ "tag":"most_sold",
+  "Patterns": ["What is the most sold machines in India last three years and in the last 3 months"], 
+  "Responses": ["In last 3 years laptops were the most sold and in last 3 months phones were the most sold"]
+},
+{  "tag":"most_sold_2022",
+  "Patterns": ["What is the most sold machines in India in 2022"], 
+  "Responses": ["PS5"]
+},
+{  "tag":"most_sold_JAN",
+  "Patterns": ["What is the most sold machines in India in  JAN 2022"], 
+  "Responses": ["Phones and PS4"]
+},
+{  "tag":"Faults",
+  "Patterns": ["Latest faults machine code"], 
+  "Responses": ["1256712786"]
+},
+{  "tag":"Faults_567",
+  "Patterns": ["Any faults for code 567"], 
+  "Responses": ["YES","NO"]
+},
+{  "tag":"Faults_Switches",
+  "Patterns": ["Any faults in switches yesterday or today"], 
+  "Responses": ["YES","NO"]
+},
+{  "tag":"serviced",
+  "Patterns": ["No of routers serviced routers"], 
+  "Responses": ["100","50","20","40"]
+},
+{  "tag":"servicedm",
+  "Patterns": ["No of routers serviced routers last month"], 
+  "Responses": ["200","150","120","240"]
+},
+{  "tag":"Gateway",
+  "Patterns": ["Which Gateway machine models in United Kingdom"], 
+  "Responses": ["567","150","786","240"]
+},
+{  "tag":"Price",
+  "Patterns": ["Price of range of gateway machines"], 
+  "Responses": ["$100","$20","$40","$70"]
+}
+]}
+
+		
